@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/916aa68b1f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header"> 
+    <div class = "container">
+          <nav>
+               <img src = "Krishan3.png" class = "logo">
+                <ul id="sidemenu">
+                     <li><a href = "#header">Home</a></li>
+                     <li><a href = "#about">About</a></li>
+                     <li><a href = "#services">Services</a></li>
+                     <li><a href = "#portfolio">Portfolio</a></li>
+                     <li><a href = "#contact">Contact</a></li>
+                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class ="header-text">
+            <p>JAVA Developer</p>
+            <h1>Hi , I'm <span>Krishan </span><br>Dolui From India</h1>
+          </div>
+    </div>
+    </div>
+    <!-- <-------about--------> 
+    <div id = "about">
+          <div class="container">
+                <div class="row">
+                   <div class="about-col-1">
+                       <img src="imagecopy.png">
+                   </div>
+                    <div class="about-col-2">
+                        <h1 class = "sub-title">About Me</h1>
+                        <p>Hello, my name is Krishan Dolui. I am currently pursuing a B.Tech in Computer Science and Engineering at College of Engineering & Management , Kolaghat. And I am in my third year.
+
+I have learned C and Java, and I regularly practice Data Structures and Algorithms using Java. Alongside this, I am also learning Web Development to improve my development skills.
+
+My goal is to build a successful career in the software industry by continuously learning and enhancing my technical skills. I am passionate about technology, enjoy solving problems, and always look forward to new challenges. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>C</span><br>Use to solve DSA questions in C , and build some projects in C.</li>
+                                <li><span>Java</span><br> Solve DSA question in JAVA, also build some projects in it.</li>
+                                <li><span>Web Development</span><br>Html<br>Css<br>javascript</li>
+                                <li><span>Data structure & Alogorithm</span><br>Searching & sorting <br>Array<br>Linked list <br>string <br>Graph<br>Backtracking<br>Greedy</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024</span><br>TCS Virtual internship.</li>
+                                <li><span>2025</span><br> AICTE Virtual internship</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>10th | 2022-24</span><br>WBBSC , Grade:A</li>
+                                <li><span>12th | 2022-24</span><br>WBCHSE , Grade:B+ | PCMB</li>
+                                <li><span>CEMK | 2024-2028</span><br> College Of Engineering & Management , Kolaghat | Btech in Computer Science & Engineering </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+          </div>
+    </div>
+<!-- <--------services------------> 
+ <div id="services">
+       <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class = "services-list" >
+            <div>
+                
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css"></i>
+                <i class="fa-brands fa-js"></i>
+                <h2>Web Development</h2>
+            <p>
+               I have a beginner-level understanding of web development using HTML, CSS, and JavaScript. I can create responsive and user-friendly web pages, structure content with HTML, style interfaces with CSS, and add basic interactivity using JavaScript. I am continuously improving my front-end development skills by building projects and learning modern web development practices.
+                <a href="https://www.bing.com/ck/a?!&&p=594ea7e0a1d5cbc1d66c9f7d9938fb8318158a08173706af051bdb46a323d903JmltdHM9MTc4NDc2NDgwMA&ptn=3&ver=2&hsh=4&fclid=000460f9-6947-6797-06d1-75436841662a&psq=frontend+developer&u=a1aHR0cHM6Ly93d3cudzNzY2hvb2xzLmNvbS93aGF0aXMvd2hhdGlzX2Zyb250ZW5kZGV2LmFzcA">Learn More</a>
+            </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-c"></i>
+                <i class="fa-brands fa-java"></i>
+                <h2>DSA in C & JAVA</h2>
+            <p>
+                I have a beginner-level understanding of Data Structures and Algorithms (DSA) in C and Java. I am familiar with fundamental data structures such as arrays, strings, and linked lists, along with basic searching and sorting algorithms. I enjoy practicing coding problems to strengthen my problem-solving skills and continuously improve my understanding of DSA concepts.
+                <a href="https://www.bing.com/ck/a?!&&p=72007275d36633beb9ba8e28d1f18f07725a5b41d40bd5ad89e4b03616d4d2d1JmltdHM9MTc4NDc2NDgwMA&ptn=3&ver=2&hsh=4&fclid=000460f9-6947-6797-06d1-75436841662a&psq=DSA&u=a1aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvZHNhL2NvbXBsZXRlLXJvYWRtYXAtdG8tbGVhcm4tZHNhLWZyb20tc2NyYXRjaC8">Learn More</a>
+            </p>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>JAVA Developer & OOPS </h2>
+            <p>
+                I am a beginner Java Developer with a solid understanding of Java programming and Object-Oriented Programming (OOP) concepts such as encapsulation, inheritance, polymorphism, and abstraction. I am eager to learn, improve my coding skills, and apply my knowledge to build efficient and reliable applications. I enjoy solving programming problems and am committed to growing as a software developer through continuous learning and hands-on practice.
+                <a href="https://www.bing.com/ck/a?!&&p=2eecaa1500c12b43977631818181c127218c0646d4f1132f69e7f0f0d9aded40JmltdHM9MTc4NDc2NDgwMA&ptn=3&ver=2&hsh=4&fclid=000460f9-6947-6797-06d1-75436841662a&psq=JAVA+and+oops&u=a1aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvamF2YS9vYmplY3Qtb3JpZW50ZWQtcHJvZ3JhbW1pbmctb29wcy1jb25jZXB0LWluLWphdmEv">Learn More</a>
+            </p>
+            </div>
+            </div>
+       </div>
+ </div>
+
+ <!-- ----------- porfolio---- -->
+
+<div id = "portfolio">
+    <div class ="container">
+         <h1 class="sub-title">My Projects</h1>
+         <div class="work-list">
+               <div class="work">
+                <img src="Cool1.jpg">
+                 <div class="layer">
+                  <h3>Banking Management System</h3>
+                  <p>Banking Management System: Developed a console-based Banking Management System using C programming. Implemented features like account creation, deposit, withdrawal, balance checking, and account management. Improved my understanding of C programming, file handling, and problem-solving using data structures and logic.</p>
+                  <a href="https://github.com/Krishandolui-hub/BankingManagementsystem/blob/main/Banking%20management%20system"><i class="fa-solid fa-money-bill-wheat"></i></a>
+                 </div>
+               </div>
+               <div class="work">
+                  <img src="Cool2.jpg">
+                 <div class="layer">
+                  <h3>Spotify Clone app</h3>
+                  <p>Spotify Clone: Developed a Spotify-inspired music player using HTML, CSS, and JavaScript. Created a responsive and interactive user interface with features such as song selection, play/pause controls, and basic music playback functionality. Enhanced my skills in front-end development, JavaScript programming, DOM manipulation, and designing user-friendly web applications.</p>
+                  <a href="#"><i class="fa-solid fa-music"></i></a>
+                 </div>
+               </div>
+               <div class="work">
+                  <img src="Cool3.jpg">
+                  <div class="layer">
+                  <h3>Calculator</h3>
+                  <p>Developed a simple calculator using HTML, CSS, and JavaScript in Visual Studio Code. The application performs basic arithmetic operations such as addition, subtraction, multiplication, and division. Designed a clean and responsive user interface, implemented interactive functionality with JavaScript, and strengthened my understanding of DOM manipulation, event handling, and basic front-end development concepts. </p>
+                  <a href="https://krishandolui-hub.github.io/Calculator.github.io/"><i class="fa-solid fa-calculator"></i></a>
+                 </div>
+               </div>
+         </div>
+         <a href="https://github.com/Krishandolui-hub" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------ contact ----------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>
+mr.dolui15@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9083275975</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/krishnan.knight.5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/krishan-dolui-48359a279/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/krishan____005/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Krishandolui-hub"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Krishan Dolui.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>  <i class="fa-regular fa-eye"></i>Made by @Krishan</p>
+    </div>
+
+</div>
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyndb2wVR3t7of55DxE4cMKimznGZNOcJF0McjOET-dn-ieboPVnAbchwx5Co6JFuHCCA/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+
+  fetch(scriptURL, {
+    method: 'POST',
+    body: new FormData(form)
+  })
+    .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+</script>
+</body>
+</html>
